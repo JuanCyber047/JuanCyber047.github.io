@@ -79,16 +79,16 @@ color:#ffffff;
     transition: all;
     transition-duration: 0.5s;
     transition-timing-function: linear;
-
     width: 400px;
-    height: 150px;
+    height: 225px;
     margin: 5px;
     text-align: justify;
+    padding: 50px 30px;
 }
 
 .cajita:hover {
-    background: #fff;
-    color: #3fa3aa;
+    background: #44c3eb;
+    color: #fff;
     padding: 32px;
     transform: scale(0.5deg);
 }
@@ -112,7 +112,7 @@ h4{
 }
 
 #carouselExampleInterval {
-    background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
+    background: linear-gradient(90deg, #44c3eb 35%, #5482fd 100%);
 }
 
 .carousel-inner {
