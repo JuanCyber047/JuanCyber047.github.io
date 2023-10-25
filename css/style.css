@@ -25,10 +25,17 @@ h4{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: initial;
     height: 200px;
 }
 
+.footer-conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+}
 
 .box{
     display: inline-block;
