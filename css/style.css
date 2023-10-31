@@ -142,12 +142,16 @@ img{
     
 }
 
+
+.fondofooter{
+    background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
+}
 .footer{
-    width: min(100%, 120rem);
+    width: min(80%, 120rem);
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 150px;
-    background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
+    
     color: white;
 }
 .serviciosfooter {
