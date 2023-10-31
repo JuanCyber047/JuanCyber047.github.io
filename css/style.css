@@ -87,13 +87,6 @@ img{
     padding-bottom: 150px;
 }
 
-.contenedorcajas{
-}
-
-.caja{
-}
-
-
 .titulo{
     text-align: center;
     padding: 20px;
@@ -122,48 +115,13 @@ img{
     transform: scale(0.5deg);
 }
 
-footer{
-    color: white;
-    font-size: medium;
-    background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
-    padding: 90px 0
-}
-.footer-conteiner{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 200px;
-}
-
-.navegacion {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.navegacion_enlace{
-    display: block;
-    text-align: center;
-    font-size: 1.8rem;
-    color: white;
-    text-decoration: none;
-}
 .collapse {
     height: 70px;
     flex-grow: 0 !important;
 }
 
-.tituloredes{
-    line-height: 4;
-}
 
-.box{
-    display: inline-block;
-    transition: all;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
-    width: 250px;
-    text-align: justify;
-}
+
 
 @media (min-width: 480px){
     .servicios {
@@ -183,3 +141,83 @@ footer{
     }
     
 }
+
+.footer{
+    width: min(100%, 120rem);
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
+    color: white;
+}
+.serviciosfooter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+.footer_texto {
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    text-align: justify;
+    width: 400px;
+    height: 300px;
+}
+
+.navegacion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.navegacion_enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+.tituloredes{
+    line-height: 4;
+}
+
+@media (min-width: 480px){
+    .serviciosfooter {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px){
+    .serviciosfooter {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1480px){
+    .serviciosfooter {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*
+footer{
+    color: white;
+    font-size: medium;
+    background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
+    padding: 90px 0
+}
+.footer-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.box{
+    display: inline-block;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 250px;
+    text-align: justify;
+}
+*/
