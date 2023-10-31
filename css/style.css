@@ -121,7 +121,12 @@ img{
 }
 
 
-
+@media (min-width: 1px){
+    .servicios {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
 
 @media (min-width: 480px){
     .servicios {
@@ -182,6 +187,13 @@ img{
 }
 .tituloredes{
     line-height: 4;
+}
+
+
+@media (min-width: 1px){
+    .serviciosfooter {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width: 480px){
