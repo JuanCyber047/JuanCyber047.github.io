@@ -6,8 +6,6 @@ body{
     border: 0;
 }
 
-
-
 ul li{
     list-style: none;
 }
@@ -30,19 +28,10 @@ h4{
     margin: 20px;
 }
 
-
-
-
 .grid-layout{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-
-.caja{
-
-}
-
-
 
 img{
     max-width: 100%;
@@ -101,6 +90,10 @@ img{
 .contenedorcajas{
 }
 
+.caja{
+}
+
+
 .titulo{
     text-align: center;
     padding: 20px;
@@ -118,8 +111,9 @@ img{
     transition: all;
     transition-duration: 0.5s;
     transition-timing-function: linear;
-    margin: 5px;
     text-align: justify;
+    width: 400px;
+    height: 225px;
 }
 .servicios_texto:hover {
     background: #44c3eb;
@@ -169,4 +163,23 @@ footer{
     transition-timing-function: linear;
     width: 250px;
     text-align: justify;
+}
+
+@media (min-width: 480px){
+    .servicios {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media (min-width: 768px){
+    .servicios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1480px){
+    .servicios {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
 }
