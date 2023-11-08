@@ -1,3 +1,5 @@
+/*------------------------General-----------------------------*/
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
@@ -44,39 +46,12 @@ img{
 }
 
 section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
-/*
-.flex-conteiner{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: initial;
-    height: 200px;
-}
-.cajita{
-    transition: all;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
-    width: 400px;
-    height: 225px;
-    margin: 5px;
-    text-align: justify;
-    padding: 50px 30px;
-}
-.cajita:hover {
-    background: #44c3eb;
-    color: #fff;
-    padding: 32px;
-    transform: scale(0.5deg);
-}
-.row {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    --bs-gutter-x: 0 !important;
-}
-*/
+
+
+/*------------------------Carrusel-----------------------------*/
 
 
 #carouselExampleInterval {
@@ -90,11 +65,20 @@ section {
     color: #fff;
 }
 
+
+
+/*------------------------Nosotros-----------------------------*/
+
+
 .contenedor{
     width: min(90%, 120rem);
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px 0 30px;
+    padding: 15px;
 }
 
 .titulo{
@@ -123,6 +107,8 @@ section {
     color: #fff;
     padding: 32px;
     transform: scale(0.5deg);
+    box-shadow: 4px 4px 4px  #8d8d8d83;
+    border-radius: 5px;
 }
 
 .collapse {
@@ -158,6 +144,10 @@ section {
 }
 
 
+
+/*------------------------FOOTER-----------------------------*/
+
+
 .fondofooter{
     background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
 }
@@ -167,13 +157,17 @@ section {
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .serviciosfooter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
 }
-
 .footer_texto {
     transition: all;
     transition-duration: 0.5s;
@@ -182,7 +176,35 @@ section {
     width: 300px;
     height: 300px;
 }
+.footer_redes{
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	padding: 0px;
+}
+.footer_redes a{
+	margin: 10px;
+}
+.footer_redes a i{
+	font-size: 25px;
+}
+.footer_redes li, .footer_menu li{
+	list-style: none;
+}
 
+.footer_menu li{
+	margin-top: 20px;
+}
+.footer_menu li a{
+	font-size: 18px;
+}
+.footer_redes a, .footer_menu a{
+	color: #fff ;
+	text-decoration: none;
+}
+.footer_menu{
+  margin-bottom: 150px;
+}
 .navegacion {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -197,7 +219,16 @@ section {
 .tituloredes{
     line-height: 2;
 }
-
+.container{
+  text-align: center;
+}
+.copyright {
+    margin: 0 0 5px 0;
+  }
+  
+.credits {
+    font-size: 13px;
+  }
 
 @media (min-width: 1px){
     .serviciosfooter {
@@ -224,42 +255,9 @@ section {
 
 
 
-#footer .copyright {
-    margin: 0 0 5px 0;
-  }
-  
-  #footer .credits {
-    font-size: 13px;
-  }
+/*------------------------SERVICIOS-----------------------------*/
 
-.container{
-    text-align: center;
-}
 
-/*
-footer{
-    color: white;
-    font-size: medium;
-    background: linear-gradient(90deg, rgba(68,195,235,1) 35%, rgba(84,130,253,1) 100%);
-    padding: 90px 0
-}
-.footer-conteiner{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 200px;
-}
-
-.box{
-    display: inline-block;
-    transition: all;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
-    width: 250px;
-    text-align: justify;
-}
-*/
 
 
 .nosotros {
@@ -307,6 +305,11 @@ footer{
       padding-bottom: 30px;
     }
   }
+
+  
+/*------------------------Contacto-----------------------------*/
+
+
 
 
   .contacto .php-email-form {
@@ -410,6 +413,8 @@ footer{
       transform: rotate(360deg);
     }
   }
+
+  /*------------------------GALERIA-----------------------------*/
 
 
   .gallery {
