@@ -586,3 +586,35 @@ text-align: center;
 		height: 325px;
 	}
 }
+
+
+
+
+/*---------------------------------------------------ButtonArriba*/
+
+#arriba{
+  width: 50px;
+  height:  50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #00BFFF;
+  position: fixed;
+  left: 85%;
+  bottom: 50px;
+  cursor: pointer;
+  transform: all .3s ease;
+  transform: scale(0);
+}
+#arriba:hover{
+  opacity: .70;
+  transform: scale(1.1);
+}
+.bi-arrow-up-short{
+  font-size: 30px;
+	color: #ffffff;
+}
+@media(min-width: 768px){
+  #arriba{
+    margin-left: 7%;
+  }
+}
