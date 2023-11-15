@@ -15,32 +15,66 @@
 <body>
   <header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Strategy</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      <nav class="navbar">		
+        <div class="container-fluid general">
+          <img class="logo2" src="images/LENTES.png" width="120px">
+          <div class="navGeneral2">
+            <ul class="navGeneral2_ul">
+              <li>
+                <a href="index.html">Inicio </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+              <li>
+                <a  href="servicios.html">Servicios</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portafolio.html">Portafolio</a>
+              <li>
+                <a  href="portafolio.html">Portafolio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+              <li>
+              <a  href="contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
+          <img class="logo1" src="images/LENTES.png" width="90px">
+          <button class="navbar-toggler contenedorF" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon icon_menu"></span>
+          </button>
+        <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body navChico">
+                <ul class="navbar-nav flex-grow-1">
+                  <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portafolio.html">Portafolio</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <ul class="socialmedia">
+                  <li>
+                    <a href="https://www.instagram.com/?hl=en"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://web.facebook.com/"><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/"><i class="bi bi-twitter-x"></i></a>
+                  </li>
+                  <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                </ul>		
+            </div>
+          </div>
         </div>
       </nav>
-    </div>
+    </div>	
   </header>
 
   <main>
@@ -91,6 +125,21 @@
             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28992.815970670752!2d-65.43967641696304!3d-24.72337838358471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc105df349b99%3A0xfd20bd337b006afb!2sBarrio%20El%20Huaico%2C%20Salta!5e0!3m2!1ses!2sar!4v1587606853105!5m2!1ses!2sar" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
           <div class="col-lg-6">
+                <div class="contacta" id="conecta">
+                  <div class="conecta_text"><h4>Completa Tus Datos</h4>
+                  </div>
+                  <div class="conecta-form">
+                    <form action="form.html" class="form" method="post">
+                      <input type="text" placeholder="Nombre (requerido)" required>
+                      <input type="email" placeholder="Email (requerido)" required>
+                      <input type="tel" placeholder="Teléfono">
+                      <textarea name="your-message" placeholder="Mensaje"></textarea>
+                      <input type="submit" value="Enviar" class="input_button">
+                    </form>
+                  </div>
+                </div>
+
+            <!------
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col form-group">
@@ -116,7 +165,7 @@
                 <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
               </div>
               <div class="text-center"><button type="submit">Enviar Mensajes</button></div>
-            </form>
+            </form>  !----->
           </div>
         </div>
       </div>
