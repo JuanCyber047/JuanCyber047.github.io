@@ -3,7 +3,7 @@ body{
 }
 
 header {
-    background: #BBBBBB;
+    background-color: #BBBBBB;
     padding: 20px 0;
 }
 .caja{
@@ -152,6 +152,13 @@ td, th{
     width: 100%;
 }
 
+.principal{
+  padding: 3em 0;
+  background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto; 
+}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
@@ -184,6 +191,10 @@ td, th{
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
+}
+
+.diferenciales{
+  padding: 3em 0;
 }
 
 .contenido-diferenciales{
@@ -383,5 +394,21 @@ i:active{
 @media(min-width: 768px){
   #arriba{
     margin-left: 7%;
+  }
+}
+
+
+@media screen and (max-width:480px){
+  h1{
+      text-align: center;
+  }
+  nav{
+      position: static;
+  }
+  .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+      width: auto;
+  }
+  .lista-diferenciales, .imagen-diferenciales{
+      width: 100%;
   }
 }
