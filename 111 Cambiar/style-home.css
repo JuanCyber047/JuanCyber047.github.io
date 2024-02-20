@@ -3,11 +3,11 @@
 }
 
 #banner{
-    width:100%;
+    width: 100%;
 }
 
 .principal{
-    background: #CCCCCC;
+    background-color: #CCCCCC;
     padding: 20px;
 }
 
@@ -20,7 +20,7 @@ p{
 }
 
 em strong{
-    color:red;
+    color: #FF0000;
 }
 
 #mision{
@@ -46,4 +46,3 @@ ul{
 .imagenDiferenciales{
     width: 50%;
 }
-
