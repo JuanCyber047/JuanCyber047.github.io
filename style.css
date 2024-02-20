@@ -82,15 +82,15 @@ nav a:hover{
     margin-top:10px;
 }
 
-i{
+.portafolio i{
 	font-size: 112px;
 }
 
-i:hover{
+.portafolio i:hover{
     color: #44c3eb;
 }
 
-i:active{
+.portafolio i:active{
     color: #088c19;
 }
 
@@ -270,7 +270,7 @@ td,th{
         position: static;
     }
 
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video , .form{
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video , .form, .portafolio{
         width: auto;
     }
     .lista-diferenciales, .imagen-diferenciales{
