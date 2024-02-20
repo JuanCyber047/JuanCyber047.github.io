@@ -43,17 +43,23 @@ nav a:hover{
     padding: 50px;
 }
 
+
+
+
 .portafolio li{
-    display: inline-block;
+    display:inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #8d8d8d83;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px  #8d8d8d83;
 }
+
+
 
 .portafolio li:hover{
     border-color: ##44c3eb;
@@ -91,7 +97,7 @@ nav a:hover{
 }
 
 .portafolio i:active{
-    color: #088c19;
+    color: #44c3eb;
 }
 
 footer{
@@ -270,11 +276,16 @@ td,th{
         position: static;
     }
 
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video , .form, .portafolio{
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video , .form{
         width: auto;
     }
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
+    }
+    .portafolio li{
+      display:flex;
+      flex-direction: column;
+      margin: 0 0 1em;
     }
 
 }
@@ -438,3 +449,5 @@ td,th{
  {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
+
+
