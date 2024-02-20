@@ -44,8 +44,6 @@ nav a:hover{
 }
 
 
-
-
 .portafolio li{
     display:inline-block;
     text-align: center;
@@ -60,9 +58,8 @@ nav a:hover{
 }
 
 
-
 .portafolio li:hover{
-    border-color: ##44c3eb;
+    border-color: #44c3eb;
 }
 
 .portafolio li:active{
@@ -276,16 +273,18 @@ td,th{
         position: static;
     }
 
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video , .form{
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video , .form, .portafolio li{
         width: auto;
     }
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
     }
-    .portafolio li{
+
+    .portafolio{
       display:flex;
       flex-direction: column;
-      margin: 0 0 1em;
+      margin: 0 0 2em;
+      width: 100%;
     }
 
 }
