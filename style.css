@@ -130,18 +130,12 @@ form{
 */
 
 
-form label, form legend{
-  display: block;
-  font-size: 16px;
-  margin: 0 0 10px;
-
-}
 
 
 /*------------------------Contacto-----------------------------*/
 
-.contacto{
-  padding: 3em 0;
+.contacto, .contacta{
+  padding: 4em 0;
 }
 
 .form{
@@ -154,12 +148,19 @@ form label, form legend{
 .form input{
   margin-top: 15px;
   border: 1px solid #61616156;
-  /*
   width: 250px;
   height: 50px;
-  /*/
   border-radius: 20px;
   padding: 15px;
+}
+
+.form fieldset label input{
+  width: 35px;
+  height: 20px;
+}
+
+.form fieldset{
+  padding: 2em 0;
 }
 
 .form textarea{
@@ -181,6 +182,18 @@ form label, form legend{
   background-color: #8fe5ff;
   box-shadow: 0px 0px 10px 0 #3f3f3f9c;
 }
+
+ .contacto, h2, h3, h4, p{
+  padding: 10px 15px 5px 15px;
+  text-align: center;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
   
   @-webkit-keyframes animate-loading {
     0% {
@@ -201,65 +214,8 @@ form label, form legend{
   }
 
   
-.contacta h2, p{
-  padding: 10px 15px 5px 15px;
-}
-.contacta hr{
-  width: 90%;
-  border: 1px solid #b48fff;
-}
-.contacta ul{
-  display: flex;
-  padding: 0px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 15px;
-  list-style: none;
-}
-.contacta li a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #8fe5ff;
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  border-radius: 50%;
-  transition: all 0.3s;
-}
 
-.contacta li a:hover{
-  background-color: #3f89b4;
-  transform: translateY(-10px);
-  transition: all 0.3s;
-}
 
-.formulario{
-  padding: 2em 0;
-  background: #FEFEFE;
-  width: 940px;
-  margin: 0 auto;
-}
-
-.enviar{
-  width: 40%;
-  padding: 15px 0;
-  font-size: 18px;
-  font-weight: bold;
-  color:white;
-  background: #44c3eb;
-  border:none;
-  border-radius: 5px;
-  transition: 1s all;
-  cursor:pointer;
-}
-
-.enviar:hover{
-  background: #3f89b4;
-  transform: scale(1.2);
-}
 
 
   ---------------------------------------------------------------------
