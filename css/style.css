@@ -57,7 +57,6 @@ nav a:hover{
     box-shadow: 4px 4px 4px  #8d8d8d83;
 }
 
-
 .portafolio li:hover{
     border-color: #44c3eb;
 }
@@ -114,23 +113,16 @@ form{
     
 }
 
-
-
 .input-padron{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
-
 .checkbox{
     margin:20px 0;
 }
-
 */
-
-
-
 
 /*------------------------Contacto-----------------------------*/
 
